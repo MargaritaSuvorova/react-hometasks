@@ -1,0 +1,25 @@
+.cube {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px dotted purple;
+    margin: 10px 0px;
+}
+
+button {
+    appearance: none;
+    outline: none;
+    border: 1px solid plum;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgba(221, 160, 221, 0.4);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(221, 160, 221);
+    transition: 0.3s;
+}
