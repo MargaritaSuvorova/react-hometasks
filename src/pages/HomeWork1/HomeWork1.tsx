@@ -13,6 +13,6 @@ export const HomeWork1 = () => {
   return <div>
     <h3>Решение домашнего задания №1</h3>
     <div className={style.cube}>{number}</div>
-    <button onClick={runHandler}>Run</button>
+    <button onClick={runHandler}>Бросить кубик</button>
   </div>;
 };

@@ -1,0 +1,32 @@
+.container {
+    height: 80vh;
+}
+
+.scrolledBlock {
+    background-color: rgb(255, 196, 239);
+    height: 100%;
+    overflow: auto;
+}
+
+.height {
+    height: 10000px;
+}
+
+.percentOfProgress {
+    position: fixed;
+    top: 20%;
+    right: 10%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(251, 236, 248);
+    color: rgb(255, 0, 187);
+}
+
+.progress {
+    transition: 0.5s;
+    position: sticky;
+    top: 0;
+    height: 5px;
+    background: rgb(225, 0, 255);
+    border-radius: 5px;
+}
