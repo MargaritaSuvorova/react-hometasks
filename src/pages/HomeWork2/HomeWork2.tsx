@@ -12,7 +12,7 @@ export const HomeWork2 = () => {
       <h3 style={{marginBottom: '15px'}}>Решение домашнего задания №2</h3>
 
       <div className={styles.scrolledBlock}>
-        <ScrolledProgress progressBar percent />
+            <ScrolledProgress progressBar percent />
         <div className={styles.height}>
           {titles.map((el, index) => {
             return (
